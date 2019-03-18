@@ -1,0 +1,156 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+}
+header {
+    width: 100vw;
+    position: fixed;
+    // margin: 0;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+nav {
+    margin: .2em;
+    margin-right: 1em;
+    text-align: end;
+    
+    font-size: 1.5em;
+}
+a {
+    margin: .3em;
+    text-decoration: none;
+    color: black;
+    font-family: Courier;
+    font-size: 1.3em;
+}
+#logo {
+    margin-top: .3em;
+    display: block;
+    max-width:100px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+    margin-left: 1em;
+    margin-bottom: .5em;
+  }
+#imgDivOne {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    animation-duration: 2s;
+    animation-name: slideIn;
+}
+#imgDivTwo {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    animation-duration: 2s;
+    animation-name: slideIn;
+    justify-items: center;
+    padding-bottom: 1em;
+
+}
+#reactLogo {
+   width: 100% 
+}
+.techLogo {
+    width: 10em;
+    height: 10em;
+}
+h1 {
+    font-family: Courier;
+    color: white;
+    margin: 0;
+    padding-top: .6em;
+    text-align: center;
+    font-size: 4em;
+}
+@keyframes slideIn {
+    from {
+        margin-left: 100%;
+        width: 300%; 
+    }
+    
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+#frontEnd {
+    animation-duration: 2s;
+    animation-name: slideIn2;
+    
+}
+#backEnd {
+    animation-duration: 2s;
+    animation-delay: .25s;
+    animation-name: slideIn2;
+    // opacity: 0
+}
+@keyframes slideIn2 {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+      opacity: 0;
+    }
+  
+    to {
+      margin-left: 1em;
+      width: 100%;
+      opacity: 1
+    }
+  }
+
+h2 {
+    margin-left: 1em;
+    color: white;
+    font-size: 2.5em;
+    font-family: Courier;
+    font-weight: 900;
+}
+p {
+    color: white;
+}
+#techStack {
+    background-color: black;
+    width: 100vw;
+}
+.break {
+    height: 62.8px;
+    background-color: white;
+}
+#work {
+    background-color: black;
+    width: 100vw;
+}
+#blog {
+    background-color: rgb(0, 229, 255);
+    width: 100vw;
+    height: 100vh
+}
+#workBio {
+    font-size: 1.8em;
+}
+#reactSpan {
+    color: blue;
+}
+#reduxSpan {
+    color: rgb(118, 74, 188)
+}
+#uiSpan {
+    color: yellow
+}
+#uxSpan {
+    color: rgb(205, 145, 65)
+}
+#mongodbSpan {
+    color: green;
+}
+#mySqlSpan {
+    color: rgb(125, 162, 211);
+}
+#firebaseSpan {
+    color:orange
+}
